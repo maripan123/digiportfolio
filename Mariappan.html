@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>John's Hostel management</title>
+    <style>
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgb(0, 0, 0);
+            color: #ffffff;
+            line-height: 1.6;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #FF7315;
+        }
+        nav {
+            background-color: rgb(0, 0, 0);
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 60px;
+            margin-left: 40px;
+        }
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-weight: bold;
+        }
+        ul li {
+            margin-right: 30px;
+        }
+        .menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        .landing {
+            text-align: center;
+            padding: 80px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .landing h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+        .landing p {
+            font-size: 1.2rem;
+            color: #F4F4F4;
+            margin-top: 10px;
+        }
+        .try{
+            background-color: rgba(0, 0, 0, 0.801);
+        }
+        .btncontainer {
+            margin-top: 30px;
+        }
+        .studentbtn, .adminbtn {
+            background-color: #FF7315;
+            color: #000000;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            border: 2px solid #000;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #F4F4F4;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+        .logoimgi img {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href=""><img src="collegelogo.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="landing">
+        <div class="logoimgi"><img src="collegelogo.png" alt=""></div>
+        <div class="try"> 
+            <h1>Hostel Management System</h1>
+            <p>Join our vibrant hostel community and connect with fellow college students. <br> Forge friendships, share experiences, and make the most of your college journey.</p>
+            <div class="btncontainer">
+                <a href="" class="studentbtn">Student Login</a>
+                <a href="" class="adminbtn">Admin Login</a>
+            </div>
+        </div>
+    </div>   
+
+    <footer>
+        <p>Copyright © St. John's College Palayamkottai 1998 - 2023</p>
+    </footer>
+</body>
+</html>
